@@ -23,7 +23,7 @@ jobs:
     - name: Setup Android SDK
       uses: android-actions/setup-android@v3.2.1  # 添加这一步
       with:
-        cmdline-tools-version: 6.0
+        cmdline-tools-version: 9123335
        
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
